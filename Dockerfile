@@ -3,7 +3,8 @@
 # COPY main.py .
 
 
-FROM python:3.9
+# FROM python:3.9
+FROM python:alpine3.19
 
 WORKDIR /app
 
