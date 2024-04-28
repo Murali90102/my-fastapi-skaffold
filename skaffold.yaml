@@ -1,0 +1,12 @@
+apiVersion: skaffold/v4beta10
+kind: Config
+metadata:
+  name: skaffold
+build:
+  artifacts:
+    - image: murali90102/my-fastapi-app
+      docker:
+        dockerfile: Dockerfile
+manifests:
+  rawYaml:
+    - deployment.yaml
