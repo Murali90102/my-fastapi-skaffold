@@ -34,7 +34,7 @@ $ kubectl get nodes
 ```
 
 # Clone the Repo
-`$ git clone https://github.dev/Murali90102/my-fastapi-skaffold.git`
+`$ git clone https://github.com/Murali90102/my-fastapi-skaffold.git`
 
 # Enter into the source code directory and run the skaffold command
 
