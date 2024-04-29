@@ -1,6 +1,8 @@
 # skaffold installation
 
-`$ curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/latest/skaffold-linux-amd64 && sudo install skaffold /usr/local/bin/`
+```
+$ curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/latest/skaffold-linux-amd64 && sudo install skaffold /usr/local/bin/
+```
 
 # docker installation and login 
 
@@ -13,7 +15,9 @@ $ docker login
 ```
 # git installation
 
-`$ yum install -y git`
+```
+$ yum install -y git
+```
 
 
 # kubectl installation and configuring with k8s master
@@ -34,12 +38,16 @@ $ kubectl get nodes
 ```
 
 # Clone the Repo
-`$ git clone https://github.com/Murali90102/my-fastapi-skaffold.git`
+```
+$ git clone https://github.com/Murali90102/my-fastapi-skaffold.git
+```
 
 # Enter into the source code directory and run the skaffold command
 
 ### Run init if skaffold config file is not created
-`$ skaffold init -f skaffold.yaml`
+```
+$ skaffold init -f skaffold.yaml
+```
 
 ```
 $ skaffold dev
